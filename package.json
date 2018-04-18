@@ -1,0 +1,23 @@
+{
+  "name": "webdrivercss-example-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "index.js",
+    "test": "./node_modules/webdriverio/bin/wdio wdio.conf.js & ./node_modules/webdriverio/bin/wdio remote-ie-wdio.conf.js",
+    "ie-test": "./node_modules/webdriverio/bin/wdio remote-ie-wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jasmine": "^3.1.0",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-jasmine-framework": "^0.3.3",
+    "wdio-json-reporter": "^0.3.1",
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriverio": "^4.12.0"
+  }
+}
